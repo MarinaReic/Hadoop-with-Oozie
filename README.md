@@ -77,7 +77,7 @@
   ```bash
   sudo nano hadoop /etc/sudoers
   ``` 
-![[1 2.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/1%202.jpg)
 * Делаем нашего пользователя владельцем директории ***hadoop*** и всего ее содержимого:
   ```bash
   sudo chown -R hduser:hadoop hadoop
