@@ -86,7 +86,7 @@
   ```bash
   nano .bashrc
   ``` 
-![[2.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/2.jpg)
 * Переподключаемся, чтобы подгрузились переменные окружения:
   ```bash
   exit
@@ -96,12 +96,12 @@
   ```bash
   nano hadoop/etc/hadoop/core-site.xml
   ``` 
-![[Pasted image 20230622185518.png]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/Pasted%20image%2020230622185518.png)
 * Добавляем конфигурацию в ***hdfs-site.xml***:
   ```bash
   nano hadoop/etc/hadoop/hdfs-site.xml
   ``` 
-![[4.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/4.jpg)
 * Форматируем файловую систему hadoop:
   ```bash
   hdfs namenode -format
@@ -113,7 +113,7 @@
 * Проверяем доступность ***NameNode*** в веб-интерфейсе:
 	  http://192.168.0.7:50070/ 
 	  ***50070*** - порт по умолчанию для ***NameNode***
-![[7.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/7.jpg)
 * Создаем директории в ***hdfs***, необходимые для выполнения заданий ***MapReduce***:
   ```bash
   hdfs dfs -mkdir /user
@@ -123,12 +123,12 @@
   ```bash
   nano hadoop/etc/hadoop/mapred-site.xml
   ```
-![[5.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/5.jpg)
 * Добавляем конфигурацию в ***yarn-site.xml***:
   ```bash
   nano hadoop/etc/hadoop/yarn-site.xml
   ```
-![[6.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/6.jpg)
 * Запускаем ***ResourceManager daemon*** и ***NodeManager daemon***:
   ```bash
   start-yarn.sh
@@ -136,7 +136,7 @@
 * Проверяем доступность ***ResourceManager*** в веб-интерфейсе:
 	  http://192.168.0.7:8088/ 
 	  ***8088*** - порт по умолчанию для ***ResourceManager***
-![[8.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/8.jpg)
 
 
 
@@ -165,7 +165,7 @@
    ```bash
   bin/mkdistro.sh -DskipTests --fail-never
   ```
-![[Pasted image 20230622191134.png]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/Pasted%20image%2020230622191134.png)
 * Создаем директорию ***libext*** по указанному пути и переходим в нее:
    ```bash
   mkdir /home/hduser/oozie-5.2.1/distro/target/oozie-5.2.1-distro/oozie-5.2.1/libext
@@ -179,7 +179,7 @@
    ```bash
   nano /home/hduser/.bashrc
   ```
-![[9.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/9.jpg)
 * Переподключаемся, чтобы подгрузились переменные окружения:
   ```bash
   exit
@@ -200,7 +200,7 @@
   ```bash
   nano $OOZIE_HOME/conf/oozie-site.xml
   ```
-![[Pasted image 20230622185651.png]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/Pasted%20image%2020230622185651.png)
 * Устанавливаем ***unzip***, необходимый для запуска скрипта ***oozie-setup.sh***:
   ```bash
   sudo apt install unzip
@@ -217,12 +217,12 @@
 * Проверяем доступность ***Oozie*** в веб-интерфейсе:
 	  http://192.168.0.7:11000/oozie 
 	  ***11000*** - порт по умолчанию для ***Oozie***:
-![[10.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/10.jpg)
 * Также можно проверить статус работы ***Oozie***:
   ```bash
   ./bin/oozie admin -oozie http://localhost:11000/oozie -status
   ```
-![[Pasted image 20230622191330.png]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/Pasted%20image%2020230622191330.png)
 
 
 
@@ -239,7 +239,7 @@
   ```bash
   nano $OOZIE_HOME/examples/apps/shell/job.properties
   ```
-![[Pasted image 20230622192716.png]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/Pasted%20image%2020230622192716.png)
 * Запускаем ***Shell Action***:
   ```bash
   bin/oozie job -oozie http://localhost:11000/oozie -config         $OOZIE_HOME/examples/apps/shell/job.properties -run
@@ -247,9 +247,9 @@
 * Проверяем выполнение нашего ***Shell Action*** в веб-интерфейсе
 	  http://192.168.0.7:11000/ 
 	  ***11000*** - порт по умолчанию для ***Oozie***:
-![[1.jpg]]
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/1.jpg)
 * Также можно проверить в консоле с помощью команды:
   ```bash
   bin/oozie job -oozie http://localhost:11000/oozie -info 0000000-230622092656254-oozie-hdus-W
   ```
-![[2 1.jpg]]
+![[](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/2%201.jpg)
