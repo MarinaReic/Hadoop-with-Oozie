@@ -252,4 +252,4 @@
   ```bash
   bin/oozie job -oozie http://localhost:11000/oozie -info 0000000-230622092656254-oozie-hdus-W
   ```
-![[](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/2%201.jpg)
+![](https://github.com/MarinaReic/Hadoop-with-Oozie/blob/master/screenshots/2%201.jpg)
