@@ -1,0 +1,188 @@
+{
+  "main": {
+    "id": "2ba1416926e76163",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4bf5a8750736db4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ccee583a700f3234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hadoop-with-Oozie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d8d29f8a5b2d9c58",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "screenshots/Pasted image 20230622191304.png"
+              }
+            }
+          },
+          {
+            "id": "ba0a5d9132f3c9c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hadoop-with-Oozie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c8e57ee8fb3c18a",
+    "type": "split",
+    "children": [
+      {
+        "id": "9da95a0f13229b6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5dcadaebc822fe24",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4dc1b846fdd1455",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ed26297c3c510c02",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cd757db7e9824358",
+    "type": "split",
+    "children": [
+      {
+        "id": "5dfefab02d90f9f0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a758ec475e135fe3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Hadoop-with-Oozie.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "67f6d16b8b620862",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Hadoop-with-Oozie.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b8fd664fa66fe4f4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4cad157fb3a025b7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Hadoop-with-Oozie.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "5dcadaebc822fe24",
+  "lastOpenFiles": [
+    "Hadoop-with-Oozie",
+    "screenshots/Pasted image 20230622191134.png",
+    "screenshots/Pasted image 20230622191304.png",
+    "Hadoop-with-Oozie.md",
+    "screenshots",
+    "screenshots/2 1.jpg",
+    "screenshots/1.jpg",
+    "screenshots/Pasted image 20230622192716.png",
+    "screenshots/Pasted image 20230622191330.png",
+    "screenshots/10.jpg",
+    "screenshots/Pasted image 20230622185651.png",
+    "screenshots/Pasted image 20230622185518.png",
+    "screenshots/9.jpg"
+  ]
+}
